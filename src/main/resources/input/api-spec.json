@@ -1,0 +1,29 @@
+{
+  "openapi": "3.0.0",
+  "paths": {
+    "/api/v1/auth/login": {
+      "post": {
+        "summary": "User authentication",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "username": { "type": "string" },
+                  "password": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "Success with JWT token" },
+          "401": { "description": "Unauthorized" },
+          "423": { "description": "Locked" },
+          "504": { "description": "Gateway Timeout" }
+        }
+      }
+    }
+  }
+}

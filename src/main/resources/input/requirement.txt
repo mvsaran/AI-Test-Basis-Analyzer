@@ -1,0 +1,10 @@
+Feature: User Login
+As a registered user,
+I want to log in to the application
+So that I can access my dashboard.
+
+Acceptance Criteria:
+1. The system must prompt for username and password.
+2. If the user provides valid credentials, log them in and redirect to the Dashboard.
+3. If the user provides invalid credentials, display an error text: "Invalid username or password".
+4. After 3 failed attempts, the account should be locked.

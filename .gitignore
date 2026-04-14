@@ -1,0 +1,17 @@
+# Environment Variables
+.env
+
+# Build outputs
+target/
+*.class
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Generated Outputs
+test-basis.json
+test-basis-report.html
+generated-e2e.spec.js
+test-output/

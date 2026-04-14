@@ -1,0 +1,7 @@
+[INFO] User testuser@example.com attempting login
+[ERROR] Authentication failed for testuser@example.com - InvalidCredentialsException
+[INFO] User testuser@example.com attempting login
+[WARN] Request timeout threshold exceeded during DB connection (2000ms)
+[ERROR] DatabaseConnectionException timeout fetching user record
+[INFO] User testuser@example.com attempting login
+[ERROR] Account locked due to 3 failed attempts - AccountLockedException
